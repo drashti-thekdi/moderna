@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moderna website using flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+
+     
+</head>
+<body>
+
+    <!-- header starts here -->
+
+    
+    <nav id="navigation">
+                <div class="inner flex1">
+                  <div class="logo">
+                         <h1>MODERNA</h1>
+                  </div>
+                   
+                      <ul class = "nav" id="nav">
+                          <li><a href="#" class="blue">Home</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#services-container">Services</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">Team</a></li>
+                          <li><a href="#">blog</a></li>
+                          <li><a href="#">Drop Down <span class="fa fa-angle-down"></span></a>
+                                      <div class="sub-menu-1">
+                                           <ul>
+                                               <li><a href="#" class="clr">Drop Down 1</a></li>
+                                               <li class="hover-me"><a href="#" class="clr">Drop Down 2 <span class="fa fa-angle-left"></span> </a>
+                                                        <div class="sub-menu-2">
+                                                         <ul>         
+                                                            <li><a href="#" class="clr">Drop Down 1</a></li>
+                                                            <li><a href="#" class="clr">Drop Down 2</a></li>
+                                                            <li><a href="#" class="clr">Drop Down 3</a></li>
+                                                            <li><a href="#" class="clr">Drop Down 4</a></li>
+                                                            <li><a href="#" class="clr">Drop Down 5</a></li>
+                                                        </ul>
+                                                       </div> 
+                                               </li>
+                                               <li><a href="#" class="clr">Drop Down 3</a></li>
+                                               <li><a href="#" class="clr">Drop Down 4</a></li>
+                                               <li><a href="#" class="clr">Drop Down 5</a></li>
+                                         
+                                           </ul>
+                                      </div>
+                        
+                        
+                        
+                        
+                          </li>
+                          <li><a href="#">Contact Us</a></li>
+                      </ul>
+
+                  
+
+                     <div id="menu" onclick="onclickmenu();">
+                               <div class="bar" id="bar1"></div>
+                               <div class="bar" id="bar2"></div>
+                               <div class="bar" id="bar3"></div>
+                     </div>
+
+
+                     <div class="mobile-nav-overly" id="mobile-nav-overly"></div>
+              </nav>
+
+           
+              <header>
+        
+
+              <div class="owl-carousel owl-theme">
+                  <!-- item -->
+                <div class="slider-content-main">
+                    <div class="banner-text">
+                        <h1>Welcome to Moderna</h1>
+                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                        <button class="btn2">Read More</button>
+                 </div>
+                </div>
+
+                 <!-- item -->
+               <div class="slider-content-main">
+                  
+                    <div class="banner-text">
+                        <h1>Lorem Ipsum Dolor</h1>
+                        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                        <button class="btn2">Read More</button>
+                 </div>
+                </div>
+
+                <!-- item -->
+              <div class="slider-content-main">
+                 
+                  <div class="banner-text">
+                      <h1>Sequi ea ut et est quaerat</h1>
+                      <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                      <button class="btn2">Read More</button>
+                  </div>
+
+            </div>
+
+           
+         </div>
+
+
+
+
+
+              
+        </div>
+        </header>
+   
+        <!-- header ends here -->
+
+
+        <!-- services section start here -->
+
+        <section id="services-container">
+               <section class="four-box inner flex animate__animated animate__fadeInUp animate__slower	3s">
+
+                         <div class="box1 border1">
+                             <div class="circle">
+                                <i class='bx bxl-dribbble'></i>
+                             </div>
+                             <h2>Lorem Ipsum</h2>
+                             <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                           
+                         </div>
+                         <div class="box1 border2">
+                             <div class="circle1">
+                                <i class='bx bxs-file'></i>
+                             </div>
+                             <h2>Sed ut perspiciatis</h2>
+                             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                            
+                        </div>
+                        <div class="box1 border3">
+                            <div class="circle2">
+                                <i class='bx bx-tachometer'></i>
+                            </div>
+
+                            <h2>Magni Dolores</h2>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                           
+                        </div>
+                        <div class="box1 border4">
+                            <div class="circle3">
+                                <i class='bx bx-world' ></i>
+                            </div>
+                             
+                            <h2>Nemo Enim</h2>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+
+                    </section>
+             
+
+              <section class="two-box inner flex animate__animated animate__fadeInUp animate__slower 4s">
+                       
+                              
+                <div class="left">
+                    <iframe src="https://www.youtube.com/embed/owQWAiAgnV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="right">
+
+                    <div class="container flex">
+                       <i class='bx bx-fingerprint'></i>
+                        </div> 
+
+                        <h1> LOREM IPSUM </h1>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                 
+                   <div class="container flex">
+                          <i class='bx bx-gift'></i>
+                        
+                   </div>
+                   <h1>NEMO ENIM</h1>
+                   <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+
+                    </div>
+               
+            </section>
+        </section>
+
+      
+            <!-- services section ends -->
+
+
+<!-- feature section starts -->
+
+          <section class="feature-container">
+      
+                     <div class="feature inner">
+                              <h1>Features</h1>
+                            
+                             <p class="center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                              <div class="row1 flex animate__animated animate__fadeInUp animate__slower	5s animate__delay-2s">
+
+                                      <div class="left">
+                                              <img src="images/features-1.svg" alt="">
+                                      </div>
+                                      <div class="right">
+                                           <h2>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h2>
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                           <p> <span class="fa  fa-check"></span> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                           <p> <span class="fa  fa-check"></span> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                      </div>
+                                   
+                              </div>
+
+                              <div class="row2 flex animate__animated animate__fadeInUp animate__slower	5s animate__delay-3s">
+
+                                <div class="left">
+                                    <h2>Corporis temporibus maiores provident</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                   
+                                </div>
+                                <div class="right">
+                                        <img src="images/features-2.svg" alt="">
+                                   </div>
+                             
+                              </div>
+
+
+                              <div class="row1 flex animate__animated animate__fadeInUp animate__slower	5s animate__delay-4s">
+
+                                <div class="left">
+                                      <img src="images/features-3.svg" alt="">
+                                </div>
+                                <div class="right">
+                                    <h2>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h2>
+                                     <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                                    <p> <span class="fa  fa-check"></span>  Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                     <p> <span class="fa  fa-check"></span> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                     <p> <span class="fa  fa-check"></span> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</p>
+                    
+                                </div>
+                             
+                        </div>
+
+                        <div class="row2 flex animate__animated animate__fadeInUp animate__slower	5s animate__delay-5s">
+
+                            <div class="left">
+                                <h2>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                               
+                            </div>
+                            <div class="right">
+                                <img src="images/features-4.svg" alt="">
+                               </div>
+                         
+                          </div>
+
+
+
+                     </div>
+
+          </section>
+
+            <!-- last section-->
+
+            <section class="darkblue-container animate__animated animate__fadeInUp">
+
+                      <div class="details inner">
+
+                                  <div class="row2 flex">
+                                        <div class="leftside">
+                                               <h3 class="size">Our Newsletter</h3>
+                                               <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                                        </div>
+                                        <div class="center">
+                                           
+                                            <label>
+                                                <input type="email" name="email">
+                                                <button class="btn1">subscribe</button>
+                                              </label>
+                                           
+                                             
+                                        </div>
+                                       
+                                  </div>
+
+                              
+
+                                  <div class="four-parts flex">
+
+                                        <div class="one">
+                                             <h3>Useful Links</h3>
+                                             <p><span class="fa fa-angle-right"><a href="#"> Home </a></span></p>
+                                             <p><span class="fa fa-angle-right"><a href="#"> About us </a></span></p>
+                                             <p><span class="fa fa-angle-right"><a href="#"> Services </a></span></p>
+                                             <p><span class="fa fa-angle-right"><a href="#"> Terms of service </a></span></p>
+                                             <p><span class="fa fa-angle-right"><a href="#"> Privacy policy </a></span></p>
+                                         
+                                        </div>
+
+                                        <div class="one">
+                                            <h3>Our Services</h3>
+                                            <p><span class="fa fa-angle-right"><a href="#"> Web design </a></span></p>
+                                            <p><span class="fa fa-angle-right"><a href="#"> Web development </a></span></p>
+                                            <p><span class="fa fa-angle-right"><a href="#"> Product management </a></span></p>
+                                            <p><span class="fa fa-angle-right"><a href="#"> Marketing </a></span></p>
+                                            <p><span class="fa fa-angle-right"><a href="#"> Graphic design </a></span></p>
+                                      
+                                       </div>
+
+                                       <div class="one">
+                                        <h3>Contact Us</h3>
+                                         <p>A108 Adam Street
+                                            New York, NY 535022
+                                            United States</p>
+                                         <p>Phone: +1 5589 55488 55</p>
+                                          <p>Email: info@example.com</p>
+                                  
+                                   </div>
+
+                                   <div class="one">
+                                    <h3>About Moderna</h3>
+                                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                                     <span class="fa fa-twitter icon"></span>
+                                     <span class="fa fa-facebook icon"></span>
+                                     <span class="fa fa-instagram icon"></span>
+                                     <span class="fa fa-linkedin icon"></span>
+                               </div>
+                                  </div>
+
+                      
+           
+          
+
+            <footer>
+                  <div class="inner">
+                      <p>© Copyright Moderna. All Rights Reserved</p>
+                      <p>Designed by <span class="text">BootstrapMade</span></p>
+                     <a href="#" class="back_to_top"><span class="fa fa-angle-up"></span></a>
+                  </div>
+            </footer>
+
+        </div>
+
+        </section>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+         
+         <script src="js/script.js"></script>
+    
+</body>
+</html>
